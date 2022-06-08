@@ -1,14 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk 31
+    compileSdk 32
     buildToolsVersion '31.0.0'
 
     defaultConfig {
         minSdkVersion 18
-        targetSdkVersion 31
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 32
     }
     buildTypes {
         release {
@@ -32,5 +30,5 @@ dependencies {
     api 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5'
     api 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
     implementation 'org.bouncycastle:bcpkix-jdk15on:1.70'
-    implementation 'androidx.core:core:1.7.0'
+    implementation 'androidx.core:core:1.8.0'
 }

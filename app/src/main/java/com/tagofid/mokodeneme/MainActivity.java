@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements MokoScanDeviceCal
                 orderTasks.add(OrderTaskAssembler.setMqttKeepAlive(60));
 //                orderTasks.add(OrderTaskAssembler.setWifiSSID("TTNET_ZyXEL_HFAF"));
 //                orderTasks.add(OrderTaskAssembler.setWifiPassword("iblis9000"));
-                orderTasks.add(OrderTaskAssembler.setWifiSSID("INCA-N"));
+                orderTasks.add(OrderTaskAssembler.setWifiSSID("Meizu 16th_9130"));
                 orderTasks.add(OrderTaskAssembler.setWifiPassword(""));
                 orderTasks.add(OrderTaskAssembler.setMqttDeivceId("frekanstantestdevice2"));
                 orderTasks.add(OrderTaskAssembler.setMqttPublishTopic("frekanstan/test"));
